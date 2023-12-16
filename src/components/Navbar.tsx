@@ -87,8 +87,6 @@ const Navbar = () => {
               <li>
                 <button
                   onMouseOver={() => showDepartments(true)}
-                  onMouseOut={() => showDepartments(false)}
-
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
                   className="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
@@ -112,6 +110,8 @@ const Navbar = () => {
                 </button>
                 {show && (
                   <div
+                    onMouseOver={() => showDepartments(true)}
+                    onMouseOut={() => showDepartments(false)}
                     id="dropdownNavbar"
                     className="z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                   >
