@@ -163,14 +163,7 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
-                >
-                  Contactos
-                </a>
-              </li>
+              
               <li>
                 <Link
                   className="block py-2 px-3 text-white bg-blue-700 rounded"
@@ -179,14 +172,7 @@ const Navbar = () => {
                   Contáctanos
                 </Link>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
-                >
-                  Contact
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>
