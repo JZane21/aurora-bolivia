@@ -122,6 +122,14 @@ const Navbar = () => {
                       <li>
                         <Link
                           className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          href="/departamentos/ceo"
+                        >
+                          Departamento de CEO
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2 px-3 text-white bg-blue-700 rounded"
                           href="/departamentos/desarrollo"
                         >
                           Departamento de Desarrollo
