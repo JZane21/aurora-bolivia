@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -18,10 +19,11 @@ const Navbar = () => {
 
     console.log("Fin de la tarea después de 3 segundos");
   }
+
   const showDepartments = (value: boolean) => {
     setShow(value);
-    console.log(show);
   };
+
   return (
     <div>
       <nav className="bg-blue-500 border-gray-200">
@@ -30,10 +32,12 @@ const Navbar = () => {
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
+            <Image
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-8"
               alt="Flowbite Logo"
+              width={50}
+              height={50}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
               Aurora
@@ -171,7 +175,7 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
-              
+
               <li>
                 <Link
                   className="block py-2 px-3 text-white bg-blue-700 rounded"
@@ -180,7 +184,6 @@ const Navbar = () => {
                   Contáctanos
                 </Link>
               </li>
-              
             </ul>
           </div>
         </div>
