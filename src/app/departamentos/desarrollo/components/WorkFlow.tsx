@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import bp0 from "../assets/BPwin0.png";
-import bp1 from "../assets/BPwin1.png";
 
 function WorkFlow() {
   const handleOpenSvg = () => {
@@ -42,8 +40,8 @@ function WorkFlow() {
           Este es nuestro flujo de trabajo
         </label>
         <div className="flex space-x-5 w-full justify-center">
-          <Image src={bp0} height={400} alt="Un diag BPWin0 :D" />
-          <Image src={bp1} height={400} alt="Un diag BPWin1 :D" />
+          <Image src={"/BPwin0.png"} height={400} alt="Un diag BPWin0 :D" />
+          <Image src={"/BPwin1.png"} height={400} alt="Un diag BPWin1 :D" />
         </div>
         <div className="flex w-full justify-center space-x-5">
           <button
