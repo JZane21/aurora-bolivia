@@ -22,6 +22,12 @@ const WorkFlow = () => {
         </div>
         <div className="flex w-full justify-center space-x-5">
           <a
+            href="https://app.diagrams.net/#G1OY9_9LPqJ4iy40u2Tovs7a74_AYfR9nq#%7B%22pageId%22%3A%22w4iiypmFHtrCKbPOdAOd%22%7D"
+            className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2 rounded-lg"
+          >
+            Flujo de trabajo
+          </a>
+          <a
             href="https://docs.google.com/document/d/1gS2e3rZpt3QvWgSQbMBOpT1tReI0Cn9GbMgz3b4b6n8/edit"
             className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2 rounded-lg"
           >

@@ -81,7 +81,7 @@ const MarketingPage = () => {
               </div>
               <div className="flex flex-col   rounded-3xl  shadow-md  items-center w-full p-4 m-4">
                 <label className="text-[#FD6262] font-semibold text-2xl my-6 text-left w-full">
-                Optimización del Sitio Web y SEO
+                Optimización de la App Web y SEO
                 </label>
                 <label className="text-white font-light">
                   {" "}
@@ -145,7 +145,7 @@ const MarketingPage = () => {
               <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
                   <a
                     className="text-4xl "
-                    href="https://docs.google.com/document/d/1JUQKvSxh0Wqup3JbcxGJvp4ia1rdB0vq_0oj-1n5Ojs/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/15o5f6_i75xNs-hXGo_WtTQRWlPAzyN_IWdE9cuvGj5s/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -236,7 +236,7 @@ const MarketingPage = () => {
                 <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
                   <div className="text-[18px] text-[#889CE7]">Moz</div>
                   <div className="text-[13px]">
-                  es una herramienta integral para el análisis y la mejora del rendimiento en línea, 
+                  Moz es una herramienta integral para el análisis y la mejora del rendimiento en línea, 
                   especialmente en el ámbito del SEO. Ayuda a los profesionales del marketing a tomar decisiones informadas, 
                   mejorar la visibilidad en los motores de búsqueda y optimizar sus estrategias digitales para obtener mejores 
                   resultados.
