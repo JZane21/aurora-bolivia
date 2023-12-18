@@ -86,9 +86,12 @@ const InicioPage = () => {
           </div>
         </div>
       </div>
+      <div className="flex flex-col w-full">
       <label className="text-[#889CE7] font-semibold text-2xl text-center my-6"> Participantes</label>
 
-      <ContactoPage/>
+<ContactoPage/>
+      </div>
+      
     </>
   );
 };
