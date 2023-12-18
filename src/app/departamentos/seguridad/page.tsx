@@ -45,7 +45,13 @@ const SeguridadInformaticaPage = () => {
           </label>
         </div>
       </div>
-      <div> Actividades</div>
+      <div className="flex flex-row border border-white">Actividades
+      <div className="w-1/2">Imagen chida
+        </div>
+        <div className="w-1/2">
+        Actividades
+        </div>
+        </div>
       <div> </div>
     </div>
   );
