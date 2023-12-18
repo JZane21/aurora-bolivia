@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import BasicInfo from "./components/BasicInfo";
 import publicity from "./assets/_53183329-d281-4d98-beb2-cc637140398a.png";

@@ -1,5 +1,7 @@
 "use client";
+import Image from "next/image";
 import React from "react";
+import mr from "../assets/image.png";
 
 function Functions() {
   const pins = [
@@ -19,15 +21,21 @@ function Functions() {
   return (
     <>
       <div className="flex flex-col px-5 space-y-5 py-7">
-        <label className="text-[#889CE7] font-semibold text-3xl my-6 w-full text-center">
+        <label className="flex flex-col text-[#889CE7] font-semibold text-3xl my-6 w-full text-center justify-center">
           ¿Eres nuevo en el equipo?
         </label>
+        <div className="flex w-full justify-center">
+          <Image src={mr} height={400} alt="Come with me :D" />
+        </div>
         <label className="text-[#889CE7] font-semibold text-xl my-6 w-full text-center">
           ¿Cúal es tu especialidad?
         </label>
         <div className="flex w-full justify-center space-x-5">
           {pins.map((pin, index) => (
-            <div key={index} className="flex items-center border-white border-dashed border p-2 rounded-2xl hover:opacity-30">
+            <div
+              key={index}
+              className="flex items-center border-white border-dashed border p-2 rounded-2xl hover:opacity-30"
+            >
               <span className="mr-2">{pin.emoji}</span>
               <p className="text-sm text-white font-medium">{pin.title}</p>
             </div>
