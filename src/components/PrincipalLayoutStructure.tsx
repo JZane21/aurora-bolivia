@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { NavbarOptions } from "../data/navbarOptions";
 import LinkNavBar from "./LinkNavBar";
-import loguito from "../assets/loguito.jpeg";
+import loguito from "../assets/loguito.png";
 interface Props {
   children: React.ReactNode;
 }
