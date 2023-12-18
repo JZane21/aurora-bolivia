@@ -1,0 +1,27 @@
+/* En el archivo QuienesSomosPage.css */
+
+.quienes-somos-container {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quienes-somos-container section {
+    margin-bottom: 30px;
+}
+
+.quienes-somos-container h1, .quienes-somos-container h2 {
+    color: #2a2a2a;
+    margin-bottom: 10px;
+}
+
+.quienes-somos-container p {
+    color: #4a4a4a;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Puedes añadir más estilos según sea necesario */

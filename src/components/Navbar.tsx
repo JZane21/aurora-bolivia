@@ -1,9 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import loguito from "../assets/loguito.png"
-import Image from "next/image";
+import loguito from "../assets/loguito.png";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   function sleep(ms: number): Promise<void> {
@@ -19,23 +19,20 @@ const Navbar = () => {
 
     console.log("Fin de la tarea después de 3 segundos");
   }
+
   const showDepartments = (value: boolean) => {
     setShow(value);
-    console.log(show);
   };
+
   return (
     <div>
       <nav className="bg-[#151419] shadow-lg shadow-black">
         <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4 ">
           <a
-            href="#"
+            href="https://auroraboliviaepn.wixsite.com/my-site"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image
-              src={loguito}
-              className="h-12 w-12"
-              alt=" Logo"
-            />
+            <Image src={loguito} className="h-12 w-12" alt=" Logo" />
             <span className="text-white self-center text-2xl font-semibold whitespace-nowrap">
               Aurora
             </span>
@@ -115,7 +112,6 @@ const Navbar = () => {
                     onMouseOver={() => showDepartments(true)}
                     onMouseOut={() => showDepartments(false)}
                     id="dropdownNavbar"
-                    className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                     className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                   >
                     <ul
