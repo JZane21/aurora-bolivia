@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import ceoImage from '../../../assets/ceoImage.webp'; // Asegúrate de tener una imagen relevante aquí
 
 const CEOPage = () => {
   return (
