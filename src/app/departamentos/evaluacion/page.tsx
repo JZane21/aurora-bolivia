@@ -4,7 +4,6 @@ import BasicInfo from "./components/BasicInfo";
 import Activities from "./components/Activities";
 import Functions from "./components/Functions";
 import WorkFlow from "./components/WorkFlow";
-import Contact from "./components/Contact";
 
 const EvaluacionTecnicaPage = () => {
   return (
@@ -34,7 +33,6 @@ const EvaluacionTecnicaPage = () => {
       <Functions />
       <Activities />
       <WorkFlow />
-      <Contact />
     </div>
   );
 };
