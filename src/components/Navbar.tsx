@@ -37,6 +37,7 @@ const Navbar = () => {
               alt=" Logo"
             />
             <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
+            <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
               Aurora
             </span>
           </a>
@@ -115,6 +116,7 @@ const Navbar = () => {
                     onMouseOver={() => showDepartments(true)}
                     onMouseOut={() => showDepartments(false)}
                     id="dropdownNavbar"
+                    className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                     className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                   >
                     <ul
