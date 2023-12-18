@@ -272,6 +272,16 @@ const CEOPage = () => {
               CEO - Workflow
             </a>
         </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1oBXUzH8PP7p7kciqSp5A63IVDkH_zFRYDj_DXYtbrCE/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Normativas
+            </a>
+        </li>
     </div>
   );
 };
