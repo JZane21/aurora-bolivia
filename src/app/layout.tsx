@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   
   return (
-    <html lang="en">
+    <html lang="en" className="font-poppins">
       <body className={inter.className}>
         <Navbar/>
         {children}
