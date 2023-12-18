@@ -45,6 +45,7 @@ const SeguridadInformaticaPage = () => {
           </label>
         </div>
       </div>
+      
       <div> Actividades</div>
       <div> </div>
     </div>
