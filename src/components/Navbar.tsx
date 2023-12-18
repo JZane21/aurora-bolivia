@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav className="bg-[#151419] shadow-lg shadow-black">
         <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4 ">
           <a
-            href="#"
+            href="https://auroraboliviaepn.wixsite.com/my-site"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
