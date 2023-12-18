@@ -36,7 +36,7 @@ const Navbar = () => {
               className="h-12 w-12"
               alt=" Logo"
             />
-            <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
+            <span className="text-white self-center text-2xl font-semibold whitespace-nowrap">
               Aurora
             </span>
           </a>
