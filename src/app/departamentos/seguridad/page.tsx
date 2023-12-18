@@ -113,7 +113,7 @@ const SeguridadInformaticaPage = () => {
           <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
               className="text-4xl "
-              href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
+              href="https://docs.google.com/document/d/1x7rMLLM6YbwOGLgD6EtGSyM4IEcsH2NaATUeFqyTMzM/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -123,7 +123,7 @@ const SeguridadInformaticaPage = () => {
           <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
               className="text-4xl "
-              href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/1PpafiJmyOymEjZZ9Q2t0KRrqxqDAILOH0BF1vnINcns/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -133,7 +133,7 @@ const SeguridadInformaticaPage = () => {
           <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
               className="text-4xl "
-              href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/1PpafiJmyOymEjZZ9Q2t0KRrqxqDAILOH0BF1vnINcns/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -144,7 +144,7 @@ const SeguridadInformaticaPage = () => {
             <div className="flex w-1/2 h-full bg-[#1B1C1E] font-bold hover:bg-white  items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
               <a
                 className="text-4xl "
-                href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QMemop1XlJXmyrZCTRyA0WEcWgxFzVgJ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -154,7 +154,7 @@ const SeguridadInformaticaPage = () => {
             <div className="flex w-1/2 h-full bg-[#1B1C1E] font-bold hover:bg-white  items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
               <a
                 className="text-4xl "
-                href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QMemop1XlJXmyrZCTRyA0WEcWgxFzVgJ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -170,45 +170,46 @@ const SeguridadInformaticaPage = () => {
             Normativas y Reglamentos Internacionales
           </div>
 
-          <div className="text-white font-normal text-[32px]">
-            En base a la norma ISO/72000
+          <div className="text-white font-semibold text-[32px]">
+            En base a la norma ISO/IEC 27000
           </div>
           <div className="text-white grid grid-cols-4 gap-1 w-full content-start">
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-2">
-              <div className="text-[#889CE7]">
-                Quam pellentesque nec nam aliquam
-              </div>
+              <div className="text-[#889CE7]">ISO 27001</div>
               <div>
-                Diam donec adipiscing tristique risus nec feugiat in fermentum
-                posuere. Amet venenatis urna cursus eget nunc scelerisque. Diam
-                vulputate ut pharetra sit amet aliquam id diam maecenas. Velit
-                ut tortor pretium viverra suspendisse potenti nullam.
+                Proporciona un marco para establecer, implementar, operar y
+                mejorar continuamente un Sistema de Gestión de Seguridad de la
+                Información
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-2">
-              <div className="text-[#889CE7]">
-                Laoreet id donec ultrices tincidunt arcu non sodales
-              </div>
+              <div className="text-[#889CE7]">ISO 27002 </div>
               <div>
-                Tristique et egestas quis ipsum suspendisse ultrices gravida.
-                Pharetra vel turpis nunc eget lorem. Fames ac turpis egestas
-                integer eget aliquet nibh praesent tristique.
-              </div>
-            </div>
-            <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-2">
-              <div className="text-[#889CE7]">Ultrices neque ornare</div>
-              <div>
-                Amet risus nullam eget felis. Lectus quam id leo in vitae turpis
-                massa. Rhoncus mattis rhoncus urna neque viverra justo nec. Id
-                velit ut tortor pretium viverra suspendisse potenti nullam ac.
+                Ofrece las mejores prácticas y objetivos de control relacionados
+                con aspectos clave de la ciberseguridad, incluyendo el control
+                de acceso, la criptografía, la seguridad de los recursos humanos
+                y la respuesta a incidentes. Es importante porque es la única
+                norma en la serie ISO 27k que proporciona orientación de
+                implementación en todos los 93 controles definidos en el Anexo A
+                de ISO 27001.
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-2">
-              <div className="text-[#889CE7]">Eros donec ac odio</div>
+              <div className="text-[#889CE7]">ISO 27004</div>
               <div>
-                Turpis tincidunt id aliquet risus feugiat in ante. Duis at
-                tellus at urna condimentum mattis pellentesque id. Amet aliquam
-                id diam maecenas ultricies mi. Consequat ac felis donec et odio.
+                Proporciona orientación y describe un conjunto de mejores
+                prácticas para medir el resultado de un SGSI en una
+                organización. La norma especifica cómo configurar un programa de
+                medición, qué parámetros medir, cuándo medir, cómo medir y ayuda
+                a las organizaciones a decidir cómo establecer objetivos de
+                rendimiento y criterios de éxito.
+              </div>
+            </div>
+            <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-2">
+              <div className="text-[#889CE7]">ISO 27005</div>
+              <div>
+                Proporciona directrices para la gestión de riesgos de seguridad
+                de la información
               </div>
             </div>
           </div>
@@ -217,47 +218,44 @@ const SeguridadInformaticaPage = () => {
         <div>
           <div className="text-white font-bold text-[50px] text-center">
             Gestión de Riesgos
-                      </div>
-          <div className="text-white grid grid-cols-4 gap-4 w-full content-start text-center">
+          </div>
+          <div className="text-white grid grid-cols-3 gap-4 w-full content-start text-center">
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Auctor</div>
+              <div className="text-[18px] text-[#889CE7]">
+                Evaluación de Amenazas y Vulnerabilidades
+              </div>
               <div className="text-[13px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Aliquam purus sit amet luctus venenatis lectus magna fringilla
-                urna. Nisl purus in mollis nunc sed id. Lobortis feugiat vivamus
-                at augue eget. Diam phasellus vestibulum lorem sed risus
-                ultricies. Pellentesque id nibh tortor id aliquet lectus. Erat
-                imperdiet sed euismod nisi porta lorem mollis aliquam.
-                Ullamcorper dignissim cras tincidunt lobortis. Habitasse platea
-                dictumst vestibulum rhoncus est pellentesque elit.
+                Identificar amenazas y vulnerabilidades que podrían afectar la
+                seguridad de los activos. Se realizaran evaluaciones regulares
+                de amenazas, considerando fuentes internas y externas. Se
+                Identificarán vulnerabilidades en sistemas, aplicaciones y redes
+                mediante pruebas de penetración y auditorías de seguridad.
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Tempus</div>
+              <div className="text-[18px] text-[#889CE7]">
+                Plan de Respuesta a Incidentes
+              </div>
               <div className="text-[13px]">
-                Ultrices sagittis orci a scelerisque purus semper eget duis.
-                Commodo sed egestas egestas fringilla phasellus faucibus
-                scelerisque eleifend. Convallis aenean et tortor at risus
-                viverra adipiscing at in.
+                Establecer un plan efectivo para responder a incidentes de
+                seguridad. Desarrollar un plan de respuesta a incidentes
+                detallado, que incluya roles y responsabilidades. Realizar
+                simulacros regulares para probar la efectividad del plan de
+                respuesta.
               </div>
             </div>
+
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Lobortis</div>
-              <div className="text-[13px]">
-                Tortor at auctor urna nunc id. Adipiscing at in tellus integer
-                feugiat scelerisque varius morbi enim. Nec ultrices dui sapien
-                eget mi proin. Quis varius quam quisque id diam. Suspendisse
-                faucibus interdum posuere lorem. Consectetur a erat nam at.
-                Habitant morbi tristique senectus et netus et.
+              <div className="text-[18px] text-[#889CE7]">
+                Análisis de Riesgos
               </div>
-            </div>
-            <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Egestas</div>
               <div className="text-[13px]">
-                Egestas pretium aenean pharetra magna ac placerat vestibulum
-                lectus mauris. Imperdiet nulla malesuada pellentesque elit eget
-                gravida. Nisl purus in mollis nunc sed id semper risus.
+                Evaluar la probabilidad y el impacto de posibles eventos
+                adversos.
+                <br />
+                Calcular el riesgo asociado con cada amenaza identificada y{" "}
+                <br />
+                Priorizar los riesgos según su nivel de impacto y probabilidad.
               </div>
             </div>
           </div>
@@ -266,52 +264,53 @@ const SeguridadInformaticaPage = () => {
         <div>
           <div className="text-white font-bold text-[50px] text-center">
             Herramientas
-                      </div>
+          </div>
           <div className="text-white grid grid-cols-4 gap-4 w-full content-start text-center">
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Auctor</div>
+              <div className="text-[18px] text-[#889CE7]">VM Workstation</div>
               <div className="text-[13px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Aliquam purus sit amet luctus venenatis lectus magna fringilla
-                urna. Nisl purus in mollis nunc sed id. Lobortis feugiat vivamus
-                at augue eget. Diam phasellus vestibulum lorem sed risus
-                ultricies. Pellentesque id nibh tortor id aliquet lectus. Erat
-                imperdiet sed euismod nisi porta lorem mollis aliquam.
-                Ullamcorper dignissim cras tincidunt lobortis. Habitasse platea
-                dictumst vestibulum rhoncus est pellentesque elit.
+                VMware Workstation Pro eleva la virtualización al siguiente
+                nivel al ofrecer la máxima compatibilidad con sistemas
+                operativos, una experiencia de usuario enriquecida, un completo
+                conjunto de funciones y un alto rendimiento. VMware Workstation
+                Pro se ha diseñado para profesionales que dependen de las
+                máquinas virtuales para hacer su trabajo.
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Tempus</div>
+              <div className="text-[18px] text-[#889CE7]">CloudFlare</div>
               <div className="text-[13px]">
-                Ultrices sagittis orci a scelerisque purus semper eget duis.
-                Commodo sed egestas egestas fringilla phasellus faucibus
-                scelerisque eleifend. Convallis aenean et tortor at risus
-                viverra adipiscing at in.
+                Garantiza la seguridad, la velocidad y la productividad de las
+                aplicaciones web y las API con una conectividad cloud Protege
+                fácilmente las aplicaciones y las API contra el abuso, evita los
+                bots maliciosos, impide los ataques DDoS y aísla la actividad
+                sospechosa, todo ello gracias a la información que ofrece
+                nuestra plataforma. Mejora el rendimiento de las aplicaciones
+                web con una conectividad que escala sin límites en todas las
+                ubicaciones.
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Lobortis</div>
+              <div className="text-[18px] text-[#889CE7]">Debian</div>
               <div className="text-[13px]">
-                Tortor at auctor urna nunc id. Adipiscing at in tellus integer
-                feugiat scelerisque varius morbi enim. Nec ultrices dui sapien
-                eget mi proin. Quis varius quam quisque id diam. Suspendisse
-                faucibus interdum posuere lorem. Consectetur a erat nam at.
-                Habitant morbi tristique senectus et netus et.
+                La razón tras el estatus de Debian como un sistema operativo
+                para desarrolladores es el gran número de paquetes y soporte de
+                software, que es algo importante para los desarrolladores. Está
+                altamente recomendado para programadores avanzados y
+                administradores de sistemas
               </div>
             </div>
             <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
-              <div className="text-[18px] text-[#889CE7]">Egestas</div>
+              <div className="text-[18px] text-[#889CE7]">Datadog</div>
               <div className="text-[13px]">
-                Egestas pretium aenean pharetra magna ac placerat vestibulum
-                lectus mauris. Imperdiet nulla malesuada pellentesque elit eget
-                gravida. Nisl purus in mollis nunc sed id semper risus.
+                Datadog es un servicio de monitorización para aplicaciones en la
+                nube, que proporciona monitorización de servidores, bases de
+                datos, herramientas y servicios, a través de una plataforma de
+                análisis de datos basada en "Software como Servicio"
               </div>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
