@@ -110,7 +110,7 @@ const SeguridadInformaticaPage = () => {
           </div>
         </div>
         <div className="w-1/2 flex flex-col m-4 ">
-          <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-red-800 h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white">
+          <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
               className="text-4xl "
               href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
@@ -120,9 +120,9 @@ const SeguridadInformaticaPage = () => {
               Manual de Funciones
             </a>
           </div>
-          <div className="flex w-full bg-red-400 h-1/4 items-center justify-center">
+          <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
-              className="text-blue-400  text-4xl hover:font-semibold hover:text-blue-800"
+              className="text-4xl "
               href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -130,9 +130,9 @@ const SeguridadInformaticaPage = () => {
               Costos
             </a>
           </div>
-          <div className="flex w-full bg-red-400 h-1/4 items-center justify-center">
+          <div className="flex w-full bg-[#1B1C1E] font-bold hover:bg-white h-1/4 items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
             <a
-              className="text-blue-400  text-4xl hover:font-semibold hover:text-blue-800"
+              className="text-4xl "
               href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -140,10 +140,10 @@ const SeguridadInformaticaPage = () => {
               Cronograma
             </a>
           </div>
-          <div className="flex flex row w-full bg-red-400 h-1/4 items-center justify-center">
-            <div className="w-1/2 h-full">
+          <div className="flex flex-row w-full h-1/4 justify-center">
+          <div className="flex w-1/2 h-full bg-[#1B1C1E] font-bold hover:bg-white  items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
               <a
-                className="text-blue-400  text-4xl hover:font-semibold hover:text-blue-800"
+                className="text-4xl "
                 href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -151,9 +151,9 @@ const SeguridadInformaticaPage = () => {
                 Flujo de Trabajo
               </a>
             </div>
-            <div className="w-1/2 h-full">
+            <div className="flex w-1/2 h-full bg-[#1B1C1E] font-bold hover:bg-white  items-center justify-center  hover:text-[#1B1C1E] text-white m-4">
               <a
-                className="text-blue-400  text-4xl hover:font-semibold hover:text-blue-800"
+                className="text-4xl "
                 href="https://drive.google.com/file/d/1oIT_f9A_GR3Czuyy1Nxl2slQ2tUzpbrF/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
