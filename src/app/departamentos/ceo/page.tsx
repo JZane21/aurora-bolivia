@@ -9,6 +9,11 @@ const CEOPage = () => {
     marginBottom: '20px',
   };
 
+  const linkStyle = {
+    color: '#00BFFF', 
+    textDecoration: 'none',
+  };
+
   const titleStyle = {
     fontSize: '24px',
     fontWeight: 'bold',
@@ -186,7 +191,87 @@ const CEOPage = () => {
             Tecnología: Herramientas para la gestión del rendimiento y el desarrollo del talento.
           </p>  
           </div>
-      </div>    
+      </div>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1z9wS-carotVw3NhLfV9MELFZuVYzO8zgqSFRr0t0x8U/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Departamento de CEO
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1Pfr-HCyRPkqWw0N2KwgOffma_HQDQmdQwp0p5r8A7TU/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Manual de Funciones
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1foYyuX_rTVShqzdN5coKE2S3Sy8mDwyb73Jt98JGyow/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Manual de Actividades
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1GqLfjyWsxpeTN-PmMljnU-9dOLOlTpv-WezZ7Une1Eo/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Evaluación de riesgos
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/17KX0ZOzhyrGGZ3kGU4kKu3c2HgwozH53N6_GdwPKIB4/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Herramientas
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://trello.com/b/Kx8sNYCV/ceo-cronograma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Cronograma
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/spreadsheets/d/1bdThmcf_vbSsM3dqbymmOrfD5XC7k6IsZgkkHq07KWc/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Costos
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://drive.google.com/file/d/1oMezlpwZ2xfUp2UHGs4ZODj9BwCb4PaB/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CEO - Workflow
+            </a>
+        </li>
     </div>
   );
 };
