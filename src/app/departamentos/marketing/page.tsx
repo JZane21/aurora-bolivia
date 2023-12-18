@@ -236,7 +236,7 @@ const MarketingPage = () => {
                 <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
                   <div className="text-[18px] text-[#889CE7]">Moz</div>
                   <div className="text-[13px]">
-                  es una herramienta integral para el análisis y la mejora del rendimiento en línea, 
+                  Moz es una herramienta integral para el análisis y la mejora del rendimiento en línea, 
                   especialmente en el ámbito del SEO. Ayuda a los profesionales del marketing a tomar decisiones informadas, 
                   mejorar la visibilidad en los motores de búsqueda y optimizar sus estrategias digitales para obtener mejores 
                   resultados.
