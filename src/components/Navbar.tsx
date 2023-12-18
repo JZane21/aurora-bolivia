@@ -37,7 +37,6 @@ const Navbar = () => {
               alt=" Logo"
             />
             <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
-            <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
               Aurora
             </span>
           </a>
