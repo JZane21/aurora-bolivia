@@ -143,7 +143,7 @@ function WorkFlow() {
         </div>
 
         <div>
-        <div className="text-[#889CE7] font-bold text-3xl text-center">
+          <div className="text-[#889CE7] font-bold text-3xl text-center">
             Herramientas
           </div>
           <div className="text-white grid grid-cols-4 gap-4 w-full content-start text-center">
@@ -194,6 +194,36 @@ function WorkFlow() {
                 de desarrollo web para almacenar y gestionar datos de manera
                 eficiente.
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="text-[#889CE7] font-bold text-3xl text-center">
+          Normativas
+        </div>
+        <div className="text-white grid grid-cols-3 gap-4 w-full content-start text-center">
+          <div className="bg-[#1B1C1E] rounded-3xl border-8 border-[#121213] p-4 m-4">
+            <div className="text-[18px] text-[#889CE7]">ISO 25000</div>
+            <div className="text-[13px]">
+              <span className="font-bold">
+                Análisis de la situación actual:
+              </span>
+              Evaluación de la calidad del software y servicios de TI existentes
+              en la organización. <br />
+              <span className="font-bold">Establecimiento de objetivos: </span>
+              Definición de los objetivos que se desean alcanzar mediante la
+              implementación de la norma. <br />
+              <span className="font-bold">
+                Implementación del sistema de gestión de calidad:{" "}
+              </span>
+              Esto implica la adopción de un enfoque de procesos para las
+              operaciones, la documentación de los procesos de forma
+              significativa, y la adopción de un enfoque centrado en el cliente.
+              <span className="font-bold">
+                Realización de evaluaciones y auditorías internas:{" "}
+              </span>
+              Esto implica la realización de auditorías internas para verificar
+              la eficacia del sistema de gestión de calidad y la realización de
+              evaluaciones para medir la calidad del software.
             </div>
           </div>
         </div>
