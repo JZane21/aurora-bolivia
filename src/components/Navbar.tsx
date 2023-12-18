@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
+import loguito from "../assets/loguito.png"
+import Image from "next/image";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   function sleep(ms: number): Promise<void> {
@@ -26,20 +27,26 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-blue-500 border-gray-200">
-        <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4">
+      <nav className="bg-[#151419] shadow-lg shadow-black">
+        <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4 ">
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
+<<<<<<< HEAD
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-8"
               alt="Flowbite Logo"
               width={50}
               height={50}
+=======
+              src={loguito}
+              className="h-12 w-12"
+              alt=" Logo"
+>>>>>>> develop
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="text-white self-center text-2xl font-semibold whitespace-nowrap">
               Aurora
             </span>
           </a>
@@ -71,10 +78,10 @@ const Navbar = () => {
             className="hidden w-full md:block md:w-auto"
             id="navbar-dropdown"
           >
-            <ul className="flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse ">
+            <ul className="flex flex-row font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse ">
               <li>
                 <Link
-                  className="block py-2 px-3 text-white bg-blue-700 rounded"
+                  className="block py-2 px-3 text-white hover:text-[#FD6262]"
                   href="/inicio"
                 >
                   Inicio
@@ -82,7 +89,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="block py-2 px-3 text-white bg-blue-700 rounded"
+                  className="block py-2 px-3 text-white hover:text-[#FD6262]"
                   href="/quienes-somos"
                 >
                   ¿Quienes Somos?
@@ -91,9 +98,10 @@ const Navbar = () => {
               <li>
                 <button
                   onMouseOver={() => showDepartments(true)}
+                  onMouseOut={() => showDepartments(false)}
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
-                  className="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
+                  className="flex items-center justify-between w-full py-2 px-3  text-white hover:text-[#FD6262] "
                 >
                   Departamentos{" "}
                   <svg
@@ -117,7 +125,8 @@ const Navbar = () => {
                     onMouseOver={() => showDepartments(true)}
                     onMouseOut={() => showDepartments(false)}
                     id="dropdownNavbar"
-                    className="z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
+                    className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
+                    className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                   >
                     <ul
                       className="py-2 text-sm text-gray-700 dark:text-gray-400"
@@ -125,7 +134,7 @@ const Navbar = () => {
                     >
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/ceo"
                         >
                           Departamento de CEO
@@ -133,7 +142,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/desarrollo"
                         >
                           Departamento de Desarrollo
@@ -141,7 +150,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/seguridad"
                         >
                           Departamento de Seguridad Informática
@@ -149,7 +158,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/evaluacion"
                         >
                           Departamento de Evaluación Técnica
@@ -157,7 +166,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/marketing"
                         >
                           Departamento de Marketing
@@ -165,7 +174,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          className="block py-2 px-3 text-white bg-blue-700 rounded"
+                          className="block py-2 px-3 text-white hover:text-[#FD6262]"
                           href="/departamentos/legal"
                         >
                           Departamento de Legal
@@ -178,7 +187,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className="block py-2 px-3 text-white bg-blue-700 rounded"
+                  className="block py-2 px-3 text-white hover:text-[#FD6262]"
                   href="/contacto"
                 >
                   Contáctanos
