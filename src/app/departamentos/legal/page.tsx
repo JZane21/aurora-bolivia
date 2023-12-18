@@ -160,18 +160,18 @@ Actividades Anuales
       {/* Sección Workflow */}
       <div className={styles.workflowSection}>
         <div>
-          <h3 className={styles.title}>Workflow</h3>
-          <p className={styles.content}>Descripción del flujo de trabajo del Departamento Legal.</p>
+          <h3 className={styles.title}></h3>
+          <p className={styles.content}></p>
         </div>
         
         <div>
-          <h3 className={styles.title}>Cómo Interactúa la Empresa</h3>
-          <p className={styles.content}>Explicación de la interacción con la empresa...</p>
+          <h3 className={styles.title}></h3>
+          <p className={styles.content}></p>
         </div>
         
         <div>
-          <h3 className={styles.title}>Modelo de Trabajo</h3>
-          <p className={styles.content}>Explicación del modelo de trabajo...</p>
+          <h3 className={styles.title}></h3>
+          <p className={styles.content}></p>
         </div>
       </div>
     </div>
