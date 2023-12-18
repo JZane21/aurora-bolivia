@@ -56,6 +56,11 @@ const BasicInfo = () => {
           </label>
         </div>
       </div>
+      <div className="flex w-full justify-center">
+        <button className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2 rounded-lg">
+          Fase de Inicio
+        </button>
+      </div>
     </div>
   );
 };

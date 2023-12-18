@@ -11,7 +11,7 @@ function Activities() {
           Estas son nuestras 4 principales actividades
         </label>
         <div className="flex w-full justify-center">
-          <button className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2">
+          <button className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2 rounded-lg">
             Manual de Funciones
           </button>
         </div>

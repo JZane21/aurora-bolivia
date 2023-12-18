@@ -61,7 +61,7 @@ function Activities() {
           </div>
         </div>
         <div className="flex w-full justify-center">
-          <button className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2">
+          <button className="btn text-white bg-purple-600 hover:bg-purple-700 py-3 px-2 rounded-lg">
             Manual de Actividades
           </button>
         </div>
