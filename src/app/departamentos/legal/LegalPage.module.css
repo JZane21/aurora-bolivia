@@ -1,0 +1,34 @@
+/* LegalPage.module.css */
+.pageContainer {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+.workflowSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manualContent {
+  background-color: #f0f0f0; /* Fondo claro para contraste */
+  color: #333; /* Color de texto oscuro para contraste */
+  border: 1px solid #ccc; /* Borde ligero */
+  padding: 15px; /* Espaciado interno */
+  white-space: pre-wrap; /* Mantiene el formato del texto */
+  overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para texto preformateado */
+}
+
+/* Agrega otros estilos que necesites aquí */
