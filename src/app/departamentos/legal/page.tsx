@@ -174,6 +174,70 @@ Actividades Anuales
           <p className={styles.content}></p>
         </div>
       </div>
+
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1eBjqrRENgmcI2_VvJPXrYHz44qJ32DEtjYGcbSKRzqY/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Departamento Legal.
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1Hn4auL5ECvpa_YywjU-NV1aYWWdEEhEATs8ug3ARcV8/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cronograma.
+            </a>
+        </li>
+
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1YilrcvYB4sKWYc_HYFgNYVF1bs7WCNdp-fwsomL3Hp0/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Diagramas.
+            </a>
+        </li>
+
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1C5iDWqAn_yPmWigntiI6pj5mw5UylNDSAMiTiqdLIH8/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Evaluación de Riesgos.
+            </a>
+        </li>
+
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/document/d/1dU4VEBgSP8vkv30JeO69Swzu5LIjIyRQZofSc59acNM/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Herramientas.
+            </a>
+        </li>
+      <li>
+            <a
+              className="text-blue-400 hover:font-semibold hover:text-blue-800"
+              href="https://docs.google.com/spreadsheets/d/10IlF5GzDIDmm4R7L6TrkVub9faAYAX0nhkkF6TTel_I/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Costos.
+            </a>
+        </li>
     </div>
   );
 };
