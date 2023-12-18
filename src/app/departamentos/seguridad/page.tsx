@@ -306,7 +306,7 @@ const SeguridadInformaticaPage = () => {
                 Datadog es un servicio de monitorización para aplicaciones en la
                 nube, que proporciona monitorización de servidores, bases de
                 datos, herramientas y servicios, a través de una plataforma de
-                análisis de datos basada en "Software como Servicio"
+                análisis de datos basada en Software como Servicio
               </div>
             </div>
           </div>
