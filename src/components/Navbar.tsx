@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-
+import loguito from "../assets/loguito.png"
+import Image from "next/image";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   function sleep(ms: number): Promise<void> {
@@ -25,17 +26,17 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-[#151419] shadow-lg shadow-black">
-        <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4 ">
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
-              alt="Flowbite Logo"
+            <Image
+              src={loguito}
+              className="h-12 w-12"
+              alt=" Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
               Aurora
             </span>
           </a>
@@ -114,7 +115,7 @@ const Navbar = () => {
                     onMouseOver={() => showDepartments(true)}
                     onMouseOut={() => showDepartments(false)}
                     id="dropdownNavbar"
-                    className="z-10 font-normal bg-blue-950 divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
+                    className="z-10 font-normal bg-[#151419] divide-y divide-gray-100 rounded-lg shadow w-44 absolute"
                   >
                     <ul
                       className="py-2 text-sm text-gray-700 dark:text-gray-400"
